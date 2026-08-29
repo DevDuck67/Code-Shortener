@@ -1,0 +1,16 @@
+name = "gcode-shortener"
+main = "src/worker.js"
+compatibility_date = "2024-09-01"
+
+# KV Storage Namespaces
+# Replace with your actual KV IDs created via:
+#   npx wrangler kv:namespace create URLS_KV
+#   npx wrangler kv:namespace create ANALYTICS_KV
+kv_namespaces = [
+  { binding = "URLS", id = "YOUR_URLS_KV_NAMESPACE_ID" },
+  { binding = "ANALYTICS", id = "YOUR_ANALYTICS_KV_NAMESPACE_ID" }
+]
+
+# Public Environment Variables
+[vars]
+ENVIRONMENT = "production"

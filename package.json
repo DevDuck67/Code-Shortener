@@ -1,0 +1,28 @@
+{
+  "name": "gcode-shortener",
+  "version": "1.0.0",
+  "description": "High-performance GitHub & Code URL shortener with real-time telemetry, Apple iOS 26 Liquid Glass UI, and edge security on Cloudflare Workers.",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "kv:create": "wrangler kv:namespace create URLS_KV && wrangler kv:namespace create ANALYTICS_KV"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "url-shortener",
+    "github",
+    "git",
+    "telemetry",
+    "analytics",
+    "edge-computing",
+    "serverless",
+    "glassmorphism",
+    "security"
+  ],
+  "author": "gcode.buzz",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.109.2"
+  }
+}
