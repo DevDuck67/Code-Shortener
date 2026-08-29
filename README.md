@@ -1,4 +1,4 @@
-# ⚡ GitHub & Code URL Shortener — Fast, Secure & Serverless Link Shortener ([gcode.buzz](https://gcode.buzz/))
+# GitHub & Code URL Shortener — Fast, Secure & Serverless Link Shortener ([gcode.buzz](https://gcode.buzz/))
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-gcode.buzz-2ea043?style=for-the-badge&logo=google-chrome&logoColor=white)](https://gcode.buzz/)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
@@ -7,7 +7,7 @@
 [![UI Style](https://img.shields.io/badge/Design-Apple_Liquid_Glass-007AFF?style=for-the-badge&logo=apple&logoColor=white)](https://apple.com)
 [![Latency](https://img.shields.io/badge/Edge_Latency-%3C20ms-brightgreen?style=for-the-badge&logo=speedtest&logoColor=white)](https://cloudflare.com)
 
-> **The modern, open-source Git.io alternative.** A high-performance, serverless URL shortener engineered for **GitHub repositories, Gists, raw code files, documentation, and web links**. Powered by **Cloudflare Workers** and **KV Storage** at the edge, featuring an **Apple iOS-inspired Liquid Glass UI**, real-time visitor telemetry, and military-grade edge security.
+> **The modern, open-source Git.io alternative.** A high-performance, serverless URL shortener engineered for **GitHub repositories, Gists, raw code files, documentation, and web links**. Powered by **Cloudflare Workers** and **KV Storage** at the edge, featuring an **Liquid Glass UI**, real-time visitor telemetry.
 
 ---
 
