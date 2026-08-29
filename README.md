@@ -1,4 +1,4 @@
-# ⚡ GitHub & Code Shortener (`gcode.buzz`)
+# GitHub & Code Shortener (`GCode.buzz`)
 
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
