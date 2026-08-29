@@ -3,7 +3,7 @@
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES2024-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
-[![Glass](https://img.shields.io/badge/UI_Style-Apple_Liquid_Glass-007AFF?style=for-the-badge&logo=apple&logoColor=white)
+![Glass](https://img.shields.io/badge/UI_Style-Apple_Liquid_Glass-007AFF?style=for-the-badge&logo=apple&logoColor=white)
 
 > A modern, lightning-fast, and secure URL shortener tailored specifically for **GitHub repositories, Gists, raw files, and code snippets**. Built with a serverless edge architecture on **Cloudflare** and Glass user interface and real-time visitor telemetry.
 
