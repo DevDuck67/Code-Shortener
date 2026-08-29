@@ -139,45 +139,9 @@ You can deploy your own instance for free in less than 3 minutes using either th
 
 ### Method 1: Cloudflare Web Dashboard (Zero Terminal)
 
-1. **Sign Up**: Create a free account at [dash.cloudflare.com](https://dash.cloudflare.com).
-2. **Create KV Namespaces**:
-   - Go to **Storage & Databases** $\rightarrow$ **KV**.
-   - Create two namespaces: `URLS_KV` and `ANALYTICS_KV`.
-3. **Create Worker**:
-   - Go to **Compute (Workers & Pages)** $\rightarrow$ **Create Application** $\rightarrow$ **Create Worker**.
-   - Click **Deploy**.
-4. **Bind KV & Admin Password**:
-   - In Worker **Settings** $\rightarrow$ **Variables and Secrets** / **Bindings**:
-     - **KV Namespace**: Variable name = `URLS`, Namespace = `URLS_KV`
-     - **KV Namespace**: Variable name = `ANALYTICS`, Namespace = `ANALYTICS_KV`
-     - **Secret / Variable**: Variable name = `ADMIN_PASSWORD`, Value = *(Your master password)*
-5. **Paste Code**:
-   - Click **Edit Code**, replace everything with the content of [`src/worker.js`](src/worker.js), and click **Deploy**.
-6. **Add Custom Domain** *(Optional)*:
-   - In **Settings** $\rightarrow$ **Domains & Routes**, bind your domain (e.g. `gcode.buzz`). SSL certificates are provisioned automatically.
-
 ---
 
 ### Method 2: Wrangler CLI (Developer Flow)
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/github-url-shortener.git
-cd github-url-shortener
-
-# 2. Install dependencies
-npm install
-
-# 3. Authenticate with Cloudflare
-npx wrangler login
-
-# 4. Create KV Namespaces
-npx wrangler kv:namespace create URLS_KV
-npx wrangler kv:namespace create ANALYTICS_KV
-
-# 5. Deploy to the Edge
-npm run deploy
-```
 
 ---
 
@@ -186,7 +150,3 @@ npm run deploy
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
 
 ---
-
-<p align="center">
-  Built with ❤️ for developers and open-source creators by <a href="https://gcode.buzz">gcode.buzz</a>
-</p>
